@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ProductViewController">
+   <children>
+      <TableView fx:id="tableViewProduse" layoutX="54.0" layoutY="100.0" prefHeight="200.0" prefWidth="366.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="380.0">
+        <columns>
+          <TableColumn fx:id="tableColumnDenumire" prefWidth="102.99999618530273" text="Denumire" />
+          <TableColumn fx:id="tableColumnProducator" prefWidth="115.40003967285156" text="Producator" />
+          <TableColumn fx:id="tableColumnCantitate" prefWidth="66.60003662109375" text="Cantitate" />
+          <TableColumn fx:id="tableColumnPret" prefWidth="78.0" text="Pret" />
+        </columns>
+      </TableView>
+      <Button layoutX="328.0" layoutY="323.0" mnemonicParsing="false" onAction="#onBtnAddToCart" text="Adauga in cos" AnchorPane.bottomAnchor="51.39999999999998" AnchorPane.leftAnchor="328.0" />
+      <Label layoutX="181.0" layoutY="48.0" prefHeight="18.0" prefWidth="112.0" text="Produse disponibile" AnchorPane.bottomAnchor="333.6" AnchorPane.leftAnchor="181.0" AnchorPane.rightAnchor="507.0" />
+      <Button layoutX="581.0" layoutY="323.0" mnemonicParsing="false" onAction="#onBtnPlaceOrder" text="Plasare comanda" AnchorPane.bottomAnchor="51.39999999999998" AnchorPane.rightAnchor="112.60000000000002" />
+      <ListView fx:id="listViewCart" layoutX="535.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="625.0" layoutY="57.0" text="Cos" />
+      <Label layoutX="69.0" layoutY="327.0" text="Cantitate" />
+      <TextField fx:id="textFieldCantitate" layoutX="138.0" layoutY="323.0" />
+   </children>
+</AnchorPane>

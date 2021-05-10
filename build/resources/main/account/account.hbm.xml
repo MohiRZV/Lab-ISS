@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Domain.Account"
+           table="Account">
+        <id name="id" column="id">
+        </id>
+        <property
+                name="password"
+                column="password"/>
+        <property
+                name="userType"
+                column="userType"/>
+    </class>
+</hibernate-mapping>
