@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.OrderViewController">
+   <children>
+      <TableView fx:id="tableViewOrder" layoutX="46.0" layoutY="72.0" prefHeight="200.0" prefWidth="301.0">
+        <columns>
+          <TableColumn fx:id="tableColumnClient" prefWidth="75.0" text="Client" />
+          <TableColumn fx:id="tableColumnProduse" prefWidth="75.0" text="Produse" />
+        </columns>
+      </TableView>
+      <Button layoutX="432.0" layoutY="96.0" mnemonicParsing="false" onAction="#onBtnCancelOrder" text="Cancel order" />
+      <Button layoutX="432.0" layoutY="138.0" mnemonicParsing="false" onAction="#onBtnPrintOrder" prefHeight="26.0" prefWidth="83.0" text="Print order" />
+   </children>
+</AnchorPane>

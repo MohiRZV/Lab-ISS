@@ -8,11 +8,16 @@ import UI.utils.AlertDisplayer;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
@@ -55,8 +60,8 @@ public class AdminController {
     public void onBtnAdaugaProdus(){
         String denumire=textFieldDenumire.getText();
         String producator=textFieldProducator.getText();
-        Double cantitate;
-        Double pret;
+        double cantitate;
+        double pret;
         try{
             cantitate=Double.parseDouble(textFieldCantitate.getText());
             pret=Double.parseDouble(textFieldPret.getText());
@@ -112,5 +117,24 @@ public class AdminController {
         String username=textFieldUsername.getText();
         String password=textFieldParola.getText();
         accountService.signUp(username,password, UserType.Salesman);
+    }
+
+    @FXML
+    public void onBtnViewReports(){
+        FXMLLoader mloader = new FXMLLoader(
+                getClass().getClassLoader().getResource("views/vizualizareRapoarteView.fxml"));
+
+        try {
+            Parent croot=mloader.load();
+            ReportsViewController reportsViewController = mloader.getController();
+            reportsViewController.setService(service);
+            Stage stage=new Stage();
+//            stage.setTitle("Window for " +account.getName());
+            stage.setScene(new Scene(croot));
+
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

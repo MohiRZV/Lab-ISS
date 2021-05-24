@@ -17,7 +17,7 @@ public class SQLiteDialectIdentityColumnSupport extends IdentityColumnSupportImp
     @Override
     public boolean hasDataTypeInIdentityColumn() {
         // As specified in NHibernate dialect
-        // FIXME true
+
         return false;
     }
 
@@ -38,7 +38,7 @@ public class SQLiteDialectIdentityColumnSupport extends IdentityColumnSupportImp
     @Override
     public String getIdentityColumnString(int type) {
         // return "integer primary key autoincrement";
-        // FIXME "autoincrement"
+        // "autoincrement"
         return "integer";
     }
 }

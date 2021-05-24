@@ -54,7 +54,7 @@ public class LoginController {
         try {
             Parent croot=mloader.load();
             ProductViewController productViewController = mloader.getController();
-            productViewController.setService(service);
+            productViewController.setService(service, account);
             Stage stage=new Stage();
 //            stage.setTitle("Window for " +account.getName());
             stage.setScene(new Scene(croot));

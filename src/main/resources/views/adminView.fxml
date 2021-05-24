@@ -16,7 +16,7 @@
       <TextField fx:id="textFieldPret" layoutX="107.0" layoutY="136.0" AnchorPane.leftAnchor="107.0" AnchorPane.topAnchor="136.0" />
       <Button layoutX="133.0" layoutY="187.0" mnemonicParsing="false" onAction="#onBtnAdaugaProdus" text="Adauga Produs" AnchorPane.leftAnchor="133.0" AnchorPane.topAnchor="187.0" />
       <Button layoutX="130.0" layoutY="222.0" mnemonicParsing="false" onAction="#onBtnModificaProdus" text="Modifica Produs" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="222.0" />
-      <Button layoutX="464.0" layoutY="360.0" mnemonicParsing="false" text="Vizualizare rapoarte" AnchorPane.bottomAnchor="14.399999999999977" AnchorPane.rightAnchor="15.200000000000045" />
+      <Button layoutX="464.0" layoutY="360.0" mnemonicParsing="false" onAction="#onBtnViewReports" text="Vizualizare rapoarte" AnchorPane.bottomAnchor="14.399999999999977" AnchorPane.rightAnchor="15.200000000000045" />
       <ComboBox fx:id="comboBox" layoutX="107.0" layoutY="258.0" onAction="#onComboBoxAction" prefWidth="150.0" promptText="Produse" AnchorPane.leftAnchor="107.0" AnchorPane.topAnchor="258.0" />
       <Label layoutX="311.0" layoutY="50.0" text="Username" AnchorPane.rightAnchor="235.4" AnchorPane.topAnchor="50.0" />
       <TextField fx:id="textFieldUsername" layoutX="376.0" layoutY="46.0" AnchorPane.rightAnchor="75.19999999999999" AnchorPane.topAnchor="46.0" />

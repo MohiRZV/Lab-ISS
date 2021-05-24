@@ -18,5 +18,8 @@
 
         <mapping resource="account/account.hbm.xml"/>
         <mapping resource="product/product.hbm.xml"/>
+        <mapping resource="customer/customer.hbm.xml"/>
+        <mapping resource="orderProduct/orderProduct.hbm.xml"/>
+        <mapping resource="order/order.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

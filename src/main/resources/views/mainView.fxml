@@ -17,8 +17,10 @@
       <Label layoutX="181.0" layoutY="48.0" prefHeight="18.0" prefWidth="112.0" text="Produse disponibile" AnchorPane.bottomAnchor="333.6" AnchorPane.leftAnchor="181.0" AnchorPane.rightAnchor="507.0" />
       <Button layoutX="581.0" layoutY="323.0" mnemonicParsing="false" onAction="#onBtnPlaceOrder" text="Plasare comanda" AnchorPane.bottomAnchor="51.39999999999998" AnchorPane.rightAnchor="112.60000000000002" />
       <ListView fx:id="listViewCart" layoutX="535.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
-      <Label layoutX="625.0" layoutY="57.0" text="Cos" />
+      <Label layoutX="625.0" layoutY="48.0" text="Cos" />
       <Label layoutX="69.0" layoutY="327.0" text="Cantitate" />
       <TextField fx:id="textFieldCantitate" layoutX="138.0" layoutY="323.0" />
+      <ComboBox fx:id="comboBoxCustomer" layoutX="427.0" layoutY="45.0" onAction="#onComboBoxCustomerAction" prefHeight="26.0" prefWidth="106.0" promptText="Customer" />
+      <Button layoutX="582.0" layoutY="359.0" mnemonicParsing="false" onAction="#onBtnViewOrders" prefHeight="26.0" prefWidth="106.0" text="Vezi comenzi" />
    </children>
 </AnchorPane>

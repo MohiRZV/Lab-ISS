@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Domain.OrderProduct"
+           table="OrderProduct">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+<!--        <composite-id>-->
+<!--&lt;!&ndash;            <key-property name="orderId"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <key-property name="productId"/>&ndash;&gt;-->
+
+<!--            <key-many-to-one name="orderId" column="orderId" lazy="false" class="Domain.Order"/>-->
+<!--            <key-many-to-one name="productId" column="productId" lazy="false" class="Domain.Product"/>-->
+<!--        </composite-id>-->
+<!--        <many-to-one name="orderId" column="orderId" class="Domain.Order"/>-->
+<!--        <many-to-one name="productId" column="productId" class="Domain.Product"/>-->
+        <property
+                name="orderId"
+                column="orderId"/>
+        <property
+                name="productId"
+                column="productId"/>
+        <property
+                name="quantity"
+                column="quantity"/>
+    </class>
+</hibernate-mapping>

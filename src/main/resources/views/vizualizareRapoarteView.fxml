@@ -3,14 +3,23 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ReportsViewController">
    <children>
-      <ChoiceBox layoutX="72.0" layoutY="70.0" prefWidth="150.0" />
-      <TextField disable="true" layoutX="390.0" layoutY="70.0" />
-      <Label disable="true" layoutX="321.0" layoutY="74.0" text="ID Client" />
-      <TableView layoutX="72.0" layoutY="166.0" prefHeight="200.0" prefWidth="285.0" />
-      <Button layoutX="72.0" layoutY="117.0" mnemonicParsing="false" text="Actualizeaza rapoarte" />
-      <Button layoutX="474.0" layoutY="340.0" mnemonicParsing="false" text="Printeaza" />
+      <TableView fx:id="tableViewSalesman" layoutX="39.0" layoutY="140.0" prefHeight="200.0" prefWidth="242.0">
+         <columns>
+            <TableColumn fx:id="tableColumnSalesmanID" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="tableColumnSalesmanValue" prefWidth="75.0" text="Value" />
+         </columns>
+      </TableView>
+
+      <Button layoutX="499.0" layoutY="360.0" mnemonicParsing="false" onAction="#onBtnPrint" text="Printeaza" />
+      <ComboBox fx:id="comboBoxReportTypes" layoutX="39.0" layoutY="76.0" onAction="#onComboBoxChanged" prefWidth="150.0" promptText="Report Types" />
+      <TableView fx:id="tableViewClients" layoutX="322.0" layoutY="140.0" prefHeight="200.0" prefWidth="242.0">
+        <columns>
+          <TableColumn fx:id="tableColumnClientID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="tableColumnClientValue" prefWidth="75.0" text="Value" />
+          <TableColumn fx:id="tableColumnClientProducts" prefWidth="89.19998168945312" text="Products" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>

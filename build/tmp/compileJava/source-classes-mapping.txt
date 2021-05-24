@@ -1,25 +1,45 @@
-Services/BadCredentialsException.java
- Services.BadCredentialsException
+Services/ProductService.java
+ Services.ProductService
+Services/AccountService.java
+ Services.AccountService
 Domain/OrderStatus.java
  Domain.OrderStatus
+Repo/ProductRepo.java
+ Repo.ProductRepo
 Repo/AccountRepo.java
  Repo.AccountRepo
 Repo/Repository.java
  Repo.Repository
+Domain/ClientDTO.java
+ Domain.ClientDTO
+Services/ServiceException.java
+ Services.ServiceException
+Domain/OrderProduct.java
+ Domain.OrderProduct
+UI/utils/AlertDisplayer.java
+ UI.utils.AlertDisplayer
 Domain/User.java
  Domain.User
-Domain/Order.java
- Domain.Order
+Services/BadCredentialsException.java
+ Services.BadCredentialsException
+Repo/CustomerRepo.java
+ Repo.CustomerRepo
 Repo/ProductRepoInterface.java
  Repo.ProductRepoInterface
-Domain/Account.java
- Domain.Account
-Domain/UserType.java
- Domain.UserType
 Repo/AccountRepoInterface.java
  Repo.AccountRepoInterface
-Services/AccountService.java
- Services.AccountService
+Domain/UserType.java
+ Domain.UserType
+Services/CustomerService.java
+ Services.CustomerService
+Domain/Account.java
+ Domain.Account
+Domain/Product.java
+ Domain.Product
+Domain/Order.java
+ Domain.Order
+Controllers/ReportsViewController.java
+ Controllers.ReportsViewController
 Controller.java
  Controller
 Domain/Entity.java
@@ -31,36 +51,40 @@ dialect/SQLiteDialect.java
  dialect.SQLiteDialect$3
  dialect.SQLiteDialect$4
  dialect.SQLiteDialect$SQLiteUniqueDelegate
+Repo/CustomerRepoInterface.java
+ Repo.CustomerRepoInterface
+Domain/Customer.java
+ Domain.Customer
+Domain/SalesmanDTO.java
+ Domain.SalesmanDTO
 dialect/identity/SQLiteDialectIdentityColumnSupport.java
  dialect.identity.SQLiteDialectIdentityColumnSupport
 Repo/Hibernater.java
  Repo.Hibernater
-Main.java
- Main
+Domain/Cart.java
+ Domain.Cart
 Repo/UserRepoInterface.java
  Repo.UserRepoInterface
+Services/OrderService.java
+ Services.OrderService
 Repo/OrderRepoInterface.java
  Repo.OrderRepoInterface
-Services/ServiceException.java
- Services.ServiceException
-ArtistMain.java
- ArtistMain
-UI/utils/AlertDisplayer.java
- UI.utils.AlertDisplayer
-Services/ProductService.java
- Services.ProductService
+Repo/OrderRepo.java
+ Repo.OrderRepo
+UI/utils/observer/Observable.java
+ UI.utils.observer.Observable
 Controllers/AdminController.java
  Controllers.AdminController
 Services/Service.java
  Services.Service
-Domain/Cart.java
- Domain.Cart
-Domain/Product.java
- Domain.Product
 UI/StartGUI.java
  UI.StartGUI
-Repo/ProductRepo.java
- Repo.ProductRepo
+Controllers/OrderViewController.java
+ Controllers.OrderViewController
+UI/utils/observer/Observer.java
+ UI.utils.observer.Observer
+Main.java
+ Main
 Controllers/ProductViewController.java
  Controllers.ProductViewController
  Controllers.ProductViewController$1

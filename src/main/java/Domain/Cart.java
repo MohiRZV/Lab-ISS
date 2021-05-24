@@ -23,6 +23,14 @@ public class Cart {
         return totalPrice;
     }
 
+    public boolean contains(Long productID){
+        for(Product product : products) {
+            if (product.getId() == productID)
+                return true;
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         return "Cart{" +

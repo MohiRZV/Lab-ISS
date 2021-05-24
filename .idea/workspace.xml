@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d023cf9a-3fa3-4f5a-a999-bf886e8b1db4" name="Default Changelist" comment="" />
+    <list default="true" id="d023cf9a-3fa3-4f5a-a999-bf886e8b1db4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df3f3a2b-c4fc-4f4b-9775-7c471c9cf3bd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/df3f3a2b-c4fc-4f4b-9775-7c471c9cf3bd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ArtistMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Controllers/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Controllers/ProductViewController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Controllers/ProductViewController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Controllers/ProductViewController$ListViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Controllers/ProductViewController$ListViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Controllers/ProductViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Controllers/ProductViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Domain/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Domain/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Domain/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Repo/OrderRepoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Repo/OrderRepoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Services/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Services/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/UI/StartGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/UI/StartGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/views/adminView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/views/adminView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/views/mainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/views/mainView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/views/vizualizareRapoarteView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/views/vizualizareRapoarteView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salesCompany.db" beforeDir="false" afterPath="$PROJECT_DIR$/salesCompany.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArtistMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/ProductViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controllers/ProductViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repo/OrderRepoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repo/OrderRepoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/StartGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/StartGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dialect/SQLiteDialect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dialect/SQLiteDialect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dialect/identity/SQLiteDialectIdentityColumnSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dialect/identity/SQLiteDialectIdentityColumnSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/adminView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/adminView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/mainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/mainView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/vizualizareRapoarteView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/views/vizualizareRapoarteView.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,10 +86,13 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -51,6 +103,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1sAEpnWLlXRb2RoumenC5SUBYIm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +114,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/MonitorizareAngajati/MonitorizareAngajati" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -69,11 +123,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\An2Sem2\MPP\LabISS\src\main\resources\customer" />
       <recent name="D:\An2Sem2\MPP\LabISS\src\main\java" />
       <recent name="D:\An2Sem2\MPP\LabISS" />
       <recent name="D:\An2Sem2\MPP\LabISS\src\main\java\dialect" />
       <recent name="D:\An2Sem2\MPP\LabISS\src\main\java\Repo" />
-      <recent name="D:\An2Sem2\MPP\LabISS\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -125,11 +179,52 @@
       <workItem from="1620457105454" duration="6198000" />
       <workItem from="1620576664404" duration="351000" />
       <workItem from="1620578331570" duration="1940000" />
-      <workItem from="1620622211354" duration="2033000" />
+      <workItem from="1620622211354" duration="2144000" />
+      <workItem from="1620626380776" duration="23000" />
+      <workItem from="1620627632442" duration="1841000" />
+      <workItem from="1620669162232" duration="1850000" />
+      <workItem from="1620758336386" duration="12000" />
+      <workItem from="1621414835509" duration="808000" />
+      <workItem from="1621449981459" duration="1784000" />
+      <workItem from="1621451797111" duration="3464000" />
+      <workItem from="1621517342479" duration="17437000" />
+      <workItem from="1621587530819" duration="10886000" />
+      <workItem from="1621620247315" duration="8370000" />
+      <workItem from="1621669915330" duration="6748000" />
+      <workItem from="1621786352489" duration="5847000" />
+      <workItem from="1621832149968" duration="1063000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Repo/OrderRepo.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Domain.Product" memberName="quantity" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

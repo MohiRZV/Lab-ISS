@@ -94,7 +94,7 @@ public class SQLiteDialect extends Dialect {
 
     @Override
     public String getCastTypeName(int code) {
-        // FIXME
+        // fix me
         return super.getCastTypeName( code );
     }
 
@@ -292,7 +292,7 @@ public class SQLiteDialect extends Dialect {
 
     @Override
     public boolean doesReadCommittedCauseWritersToBlockReaders() {
-        // TODO Validate (WAL mode...)
+        // TO DO Validate (WAL mode...)
         return true;
     }
 
